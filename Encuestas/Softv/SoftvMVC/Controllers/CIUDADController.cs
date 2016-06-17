@@ -99,14 +99,13 @@ namespace SoftvMVC.Controllers
 
             return Json(lista,JsonRequestBehavior.AllowGet);
         }
-       
-
-     
-
-        
 
 
 
+        public ActionResult GetCiudad()
+        {
+            return Json(proxy.GetCIUDADList(), JsonRequestBehavior.AllowGet);
+        }
     }
 
 }

@@ -68,6 +68,7 @@
     <Compile Include="Rel_Clientes_TiposClientesProvider.cs" />
     <Compile Include="ResOpcMultsProvider.cs" />
     <Compile Include="RoleProvider.cs" />
+    <Compile Include="ServicioProvider.cs" />
     <Compile Include="TapProvider.cs" />
     <Compile Include="tblClasificacionProblemaProvider.cs" />
     <Compile Include="tblPrioridadQuejaProvider.cs" />

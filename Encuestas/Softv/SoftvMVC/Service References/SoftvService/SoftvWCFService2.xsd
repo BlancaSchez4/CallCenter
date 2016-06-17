@@ -801,4 +801,29 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="ArrayOftblPrioridadQuejaEntity" nillable="true" type="tns:ArrayOftblPrioridadQuejaEntity" />
+  <xs:complexType name="ServicioEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AplicanCom" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Clv_Servicio" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Clv_TipSer" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Clv_Trabajo" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Clv_Txt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Es_Principal" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Genera_Orden" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Precio" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Sale_en_Cartera" nillable="true" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ServicioEntity" nillable="true" type="tns:ServicioEntity" />
+  <xs:complexType name="ArrayOfServicioEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ServicioEntity" nillable="true" type="tns:ServicioEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfServicioEntity" nillable="true" type="tns:ArrayOfServicioEntity" />
 </xs:schema>

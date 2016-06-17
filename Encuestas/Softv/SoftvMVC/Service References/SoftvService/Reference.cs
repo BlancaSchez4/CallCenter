@@ -5109,4 +5109,149 @@ namespace SoftvMVC.SoftvService {
             return base.Channel.DeletetblPrioridadQuejaAsync(BaseRemoteIp, BaseIdUser, clvPrioridadQueja);
         }
     }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="SoftvService.IServicio")]
+    public interface IServicio {
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicio/GetServicio", ReplyAction="http://tempuri.org/IServicio/GetServicioResponse")]
+        Softv.Entities.ServicioEntity GetServicio(System.Nullable<int> Clv_Servicio);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicio/GetServicio", ReplyAction="http://tempuri.org/IServicio/GetServicioResponse")]
+        System.Threading.Tasks.Task<Softv.Entities.ServicioEntity> GetServicioAsync(System.Nullable<int> Clv_Servicio);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicio/GetDeepServicio", ReplyAction="http://tempuri.org/IServicio/GetDeepServicioResponse")]
+        Softv.Entities.ServicioEntity GetDeepServicio(System.Nullable<int> Clv_Servicio);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicio/GetDeepServicio", ReplyAction="http://tempuri.org/IServicio/GetDeepServicioResponse")]
+        System.Threading.Tasks.Task<Softv.Entities.ServicioEntity> GetDeepServicioAsync(System.Nullable<int> Clv_Servicio);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicio/GetServicioList", ReplyAction="http://tempuri.org/IServicio/GetServicioListResponse")]
+        System.Collections.Generic.List<Softv.Entities.ServicioEntity> GetServicioList();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicio/GetServicioList", ReplyAction="http://tempuri.org/IServicio/GetServicioListResponse")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<Softv.Entities.ServicioEntity>> GetServicioListAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicio/GetServicioPagedList", ReplyAction="http://tempuri.org/IServicio/GetServicioPagedListResponse")]
+        Globals.SoftvList<Softv.Entities.ServicioEntity> GetServicioPagedList(int page, int pageSize);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicio/GetServicioPagedList", ReplyAction="http://tempuri.org/IServicio/GetServicioPagedListResponse")]
+        System.Threading.Tasks.Task<Globals.SoftvList<Softv.Entities.ServicioEntity>> GetServicioPagedListAsync(int page, int pageSize);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicio/GetServicioPagedListXml", ReplyAction="http://tempuri.org/IServicio/GetServicioPagedListXmlResponse")]
+        Globals.SoftvList<Softv.Entities.ServicioEntity> GetServicioPagedListXml(int page, int pageSize, string xml);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicio/GetServicioPagedListXml", ReplyAction="http://tempuri.org/IServicio/GetServicioPagedListXmlResponse")]
+        System.Threading.Tasks.Task<Globals.SoftvList<Softv.Entities.ServicioEntity>> GetServicioPagedListXmlAsync(int page, int pageSize, string xml);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicio/AddServicio", ReplyAction="http://tempuri.org/IServicio/AddServicioResponse")]
+        int AddServicio(Softv.Entities.ServicioEntity objServicio);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicio/AddServicio", ReplyAction="http://tempuri.org/IServicio/AddServicioResponse")]
+        System.Threading.Tasks.Task<int> AddServicioAsync(Softv.Entities.ServicioEntity objServicio);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicio/UpdateServicio", ReplyAction="http://tempuri.org/IServicio/UpdateServicioResponse")]
+        int UpdateServicio(Softv.Entities.ServicioEntity objServicio);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicio/UpdateServicio", ReplyAction="http://tempuri.org/IServicio/UpdateServicioResponse")]
+        System.Threading.Tasks.Task<int> UpdateServicioAsync(Softv.Entities.ServicioEntity objServicio);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicio/DeleteServicio", ReplyAction="http://tempuri.org/IServicio/DeleteServicioResponse")]
+        int DeleteServicio(string BaseRemoteIp, int BaseIdUser, System.Nullable<int> Clv_Servicio);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicio/DeleteServicio", ReplyAction="http://tempuri.org/IServicio/DeleteServicioResponse")]
+        System.Threading.Tasks.Task<int> DeleteServicioAsync(string BaseRemoteIp, int BaseIdUser, System.Nullable<int> Clv_Servicio);
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public interface IServicioChannel : SoftvMVC.SoftvService.IServicio, System.ServiceModel.IClientChannel {
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class ServicioClient : System.ServiceModel.ClientBase<SoftvMVC.SoftvService.IServicio>, SoftvMVC.SoftvService.IServicio {
+        
+        public ServicioClient() {
+        }
+        
+        public ServicioClient(string endpointConfigurationName) : 
+                base(endpointConfigurationName) {
+        }
+        
+        public ServicioClient(string endpointConfigurationName, string remoteAddress) : 
+                base(endpointConfigurationName, remoteAddress) {
+        }
+        
+        public ServicioClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(endpointConfigurationName, remoteAddress) {
+        }
+        
+        public ServicioClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(binding, remoteAddress) {
+        }
+        
+        public Softv.Entities.ServicioEntity GetServicio(System.Nullable<int> Clv_Servicio) {
+            return base.Channel.GetServicio(Clv_Servicio);
+        }
+        
+        public System.Threading.Tasks.Task<Softv.Entities.ServicioEntity> GetServicioAsync(System.Nullable<int> Clv_Servicio) {
+            return base.Channel.GetServicioAsync(Clv_Servicio);
+        }
+        
+        public Softv.Entities.ServicioEntity GetDeepServicio(System.Nullable<int> Clv_Servicio) {
+            return base.Channel.GetDeepServicio(Clv_Servicio);
+        }
+        
+        public System.Threading.Tasks.Task<Softv.Entities.ServicioEntity> GetDeepServicioAsync(System.Nullable<int> Clv_Servicio) {
+            return base.Channel.GetDeepServicioAsync(Clv_Servicio);
+        }
+        
+        public System.Collections.Generic.List<Softv.Entities.ServicioEntity> GetServicioList() {
+            return base.Channel.GetServicioList();
+        }
+        
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<Softv.Entities.ServicioEntity>> GetServicioListAsync() {
+            return base.Channel.GetServicioListAsync();
+        }
+        
+        public Globals.SoftvList<Softv.Entities.ServicioEntity> GetServicioPagedList(int page, int pageSize) {
+            return base.Channel.GetServicioPagedList(page, pageSize);
+        }
+        
+        public System.Threading.Tasks.Task<Globals.SoftvList<Softv.Entities.ServicioEntity>> GetServicioPagedListAsync(int page, int pageSize) {
+            return base.Channel.GetServicioPagedListAsync(page, pageSize);
+        }
+        
+        public Globals.SoftvList<Softv.Entities.ServicioEntity> GetServicioPagedListXml(int page, int pageSize, string xml) {
+            return base.Channel.GetServicioPagedListXml(page, pageSize, xml);
+        }
+        
+        public System.Threading.Tasks.Task<Globals.SoftvList<Softv.Entities.ServicioEntity>> GetServicioPagedListXmlAsync(int page, int pageSize, string xml) {
+            return base.Channel.GetServicioPagedListXmlAsync(page, pageSize, xml);
+        }
+        
+        public int AddServicio(Softv.Entities.ServicioEntity objServicio) {
+            return base.Channel.AddServicio(objServicio);
+        }
+        
+        public System.Threading.Tasks.Task<int> AddServicioAsync(Softv.Entities.ServicioEntity objServicio) {
+            return base.Channel.AddServicioAsync(objServicio);
+        }
+        
+        public int UpdateServicio(Softv.Entities.ServicioEntity objServicio) {
+            return base.Channel.UpdateServicio(objServicio);
+        }
+        
+        public System.Threading.Tasks.Task<int> UpdateServicioAsync(Softv.Entities.ServicioEntity objServicio) {
+            return base.Channel.UpdateServicioAsync(objServicio);
+        }
+        
+        public int DeleteServicio(string BaseRemoteIp, int BaseIdUser, System.Nullable<int> Clv_Servicio) {
+            return base.Channel.DeleteServicio(BaseRemoteIp, BaseIdUser, Clv_Servicio);
+        }
+        
+        public System.Threading.Tasks.Task<int> DeleteServicioAsync(string BaseRemoteIp, int BaseIdUser, System.Nullable<int> Clv_Servicio) {
+            return base.Channel.DeleteServicioAsync(BaseRemoteIp, BaseIdUser, Clv_Servicio);
+        }
+    }
 }

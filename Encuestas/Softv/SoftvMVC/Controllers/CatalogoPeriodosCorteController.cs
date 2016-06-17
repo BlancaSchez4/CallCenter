@@ -201,7 +201,10 @@ namespace SoftvMVC.Controllers
             }
         }
 
-
+        public ActionResult GetCatalogoPeriodosCorte()
+        {
+            return Json(proxy.GetCatalogoPeriodosCorteList(), JsonRequestBehavior.AllowGet);
+        }
     }
 
 }

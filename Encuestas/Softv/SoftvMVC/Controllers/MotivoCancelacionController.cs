@@ -194,7 +194,10 @@ namespace SoftvMVC.Controllers
                 return Json(resultNg, JsonRequestBehavior.AllowGet);
             }
         }
-
+        public ActionResult GetMotivoCancelacion()
+        {
+            return Json(proxy.GetMotivoCancelacionList(), JsonRequestBehavior.AllowGet);
+        }
 
     }
 

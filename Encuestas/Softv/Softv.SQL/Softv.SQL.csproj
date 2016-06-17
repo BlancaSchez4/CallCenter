@@ -67,6 +67,7 @@
     <Compile Include="Rel_Clientes_TiposClientesData.cs" />
     <Compile Include="ResOpcMultsData.cs" />
     <Compile Include="RoleData.cs" />
+    <Compile Include="ServicioData.cs" />
     <Compile Include="TapData.cs" />
     <Compile Include="tblClasificacionProblemaData.cs" />
     <Compile Include="tblPrioridadQuejaData.cs" />

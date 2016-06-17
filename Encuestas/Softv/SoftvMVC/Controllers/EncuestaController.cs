@@ -1,5 +1,4 @@
-﻿
-using SoftvMVC.Models;
+﻿using SoftvMVC.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -77,11 +76,7 @@ namespace SoftvMVC.Controllers
                     proxyUsuario.Close();
                 }
             }
-
         }
-
-
-
 
 
         public ActionResult Index(int? page, int? pageSize)
@@ -89,8 +84,6 @@ namespace SoftvMVC.Controllers
             PermisosAcceso("Encuesta");
             ViewData["Title"] = "Encuesta";
             ViewData["Message"] = "Encuesta";
-
-
 
 
             List<UsuarioEntity> lstUsuario = new List<UsuarioEntity>();
@@ -127,8 +120,7 @@ namespace SoftvMVC.Controllers
             {
                 dataTableData.data = FiltrarContenido(ref recordsFiltered, start, length);
             }
-
-
+            
             dataTableData.recordsFiltered = recordsFiltered;
 
             return Json(dataTableData, JsonRequestBehavior.AllowGet);
@@ -143,13 +135,11 @@ namespace SoftvMVC.Controllers
             return lista.Skip(start).Take(length).ToList();
         }
 
-
         private List<TipoPreguntasEntity> TipoPreguntas()
         {
             List<TipoPreguntasEntity> lista = TipoPreguntasService.GetTipoPreguntasList();
             return lista;
         }
-
 
         public class Detalle_encuesta
         {
@@ -164,16 +154,10 @@ namespace SoftvMVC.Controllers
 
         }
 
-
-
-
-
         public ActionResult DeepDetails(int id)
         {
             Detalle_encuesta Encuesta = new Detalle_encuesta();
             List<Detalle_pregunta> Lista_de_preguntas = new List<Detalle_pregunta>();
-
-
 
             EncuestaEntity objEncuesta = proxy.GetEncuesta(id);
             Encuesta.Encuesta = objEncuesta;
@@ -190,35 +174,23 @@ namespace SoftvMVC.Controllers
 
                 foreach (var resp in relaciones)
                 {
-
                     ResOpcMultsEntity respuestas = Respuestas.GetResOpcMultsList().Where(o => o.Id_ResOpcMult == resp.Id_ResOpcMult).Select(o => o).First();
 
                     r.Add(respuestas);
                 }
 
-
                 pregunta.Respuestas = r;
-
-
-
 
                 Lista_de_preguntas.Add(pregunta);
 
-
-
             }
 
-
             Encuesta.Preguntas = Lista_de_preguntas;
-
 
             if (objEncuesta == null)
             {
                 return HttpNotFound();
             }
-
-
-
 
             return Json(Encuesta, JsonRequestBehavior.AllowGet);
         }
@@ -229,8 +201,6 @@ namespace SoftvMVC.Controllers
         {
             Detalle_encuesta Encuesta = new Detalle_encuesta();
             List<Detalle_pregunta> Lista_de_preguntas = new List<Detalle_pregunta>();
-
-
 
             EncuestaEntity objEncuesta = proxy.GetEncuesta(id);
             Encuesta.Encuesta = objEncuesta;
@@ -256,22 +226,12 @@ namespace SoftvMVC.Controllers
 
                     r.Add(respuestas);
                 }
-
-
+                
                 pregunta.Respuestas = r;
-
-
-
-
+                
                 Lista_de_preguntas.Add(pregunta);
 
-
-
             }
-
-
-
-
 
             if (objEncuesta == null)
             {
@@ -289,19 +249,13 @@ namespace SoftvMVC.Controllers
 
         public class PreguntaEntity1
         {
-
             public string IdPregunta { get; set; }
 
             public string IdPregunta2 { get; set; }
 
-
-
             public String Pregunta { get; set; }
 
             public int IdTipoPregunta { get; set; }
-
-
-
         }
 
         public class ResOpcMultsEntity1
@@ -353,17 +307,7 @@ namespace SoftvMVC.Controllers
         }
 
 
-
-
-
-
-
-
-
-
-
-
-
+        
 
 
         public JsonResult Delete(int id)

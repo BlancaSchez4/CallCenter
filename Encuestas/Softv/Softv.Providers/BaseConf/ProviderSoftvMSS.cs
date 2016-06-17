@@ -194,6 +194,11 @@ namespace Softv.Providers
         {
             get { return tblPrioridadQuejaProvider.Instance; }
         }
+
+        public static ServicioProvider Servicio
+        {
+            get { return ServicioProvider.Instance; }
+        }
   
   
     }

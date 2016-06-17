@@ -195,6 +195,10 @@ namespace SoftvMVC.Controllers
             }
         }
 
+        public ActionResult GetTipoClientes()
+        {
+            return Json(proxy.GetTipoClienteList(),JsonRequestBehavior.AllowGet);
+        }
 
     }
 

@@ -363,6 +363,16 @@ namespace SoftvConfiguration
         {
             get { return (tblPrioridadQuejaElement)base["tblPrioridadQueja"]; }
         }
+
+
+        /// <summary>
+        /// Gets Servicio configuration data
+        /// </summary>
+        [ConfigurationProperty("Servicio")]
+        public ServicioElement Servicio
+        {
+            get { return (ServicioElement)base["Servicio"]; }
+        }
   
   
 

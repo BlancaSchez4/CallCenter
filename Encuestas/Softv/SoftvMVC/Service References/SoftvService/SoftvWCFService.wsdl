@@ -1676,6 +1676,54 @@
   <wsdl:message name="ItblPrioridadQueja_DeletetblPrioridadQueja_OutputMessage">
     <wsdl:part name="parameters" element="tns:DeletetblPrioridadQuejaResponse" />
   </wsdl:message>
+  <wsdl:message name="IServicio_GetServicio_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServicio" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_GetServicio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServicioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_GetDeepServicio_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeepServicio" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_GetDeepServicio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeepServicioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_GetServicioList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServicioList" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_GetServicioList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServicioListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_GetServicioPagedList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServicioPagedList" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_GetServicioPagedList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServicioPagedListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_GetServicioPagedListXml_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServicioPagedListXml" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_GetServicioPagedListXml_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServicioPagedListXmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_AddServicio_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddServicio" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_AddServicio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddServicioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_UpdateServicio_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateServicio" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_UpdateServicio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateServicioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_DeleteServicio_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteServicio" />
+  </wsdl:message>
+  <wsdl:message name="IServicio_DeleteServicio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteServicioResponse" />
+  </wsdl:message>
   <wsdl:portType name="IUsuario">
     <wsdl:operation name="GetUsuario">
       <wsdl:input wsaw:Action="http://tempuri.org/IUsuario/GetUsuario" message="tns:IUsuario_GetUsuario_InputMessage" />
@@ -2856,6 +2904,40 @@
     <wsdl:operation name="DeletetblPrioridadQueja">
       <wsdl:input wsaw:Action="http://tempuri.org/ItblPrioridadQueja/DeletetblPrioridadQueja" message="tns:ItblPrioridadQueja_DeletetblPrioridadQueja_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ItblPrioridadQueja/DeletetblPrioridadQuejaResponse" message="tns:ItblPrioridadQueja_DeletetblPrioridadQueja_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IServicio">
+    <wsdl:operation name="GetServicio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/GetServicio" message="tns:IServicio_GetServicio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/GetServicioResponse" message="tns:IServicio_GetServicio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeepServicio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/GetDeepServicio" message="tns:IServicio_GetDeepServicio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/GetDeepServicioResponse" message="tns:IServicio_GetDeepServicio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServicioList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/GetServicioList" message="tns:IServicio_GetServicioList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/GetServicioListResponse" message="tns:IServicio_GetServicioList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServicioPagedList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/GetServicioPagedList" message="tns:IServicio_GetServicioPagedList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/GetServicioPagedListResponse" message="tns:IServicio_GetServicioPagedList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServicioPagedListXml">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/GetServicioPagedListXml" message="tns:IServicio_GetServicioPagedListXml_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/GetServicioPagedListXmlResponse" message="tns:IServicio_GetServicioPagedListXml_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddServicio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/AddServicio" message="tns:IServicio_AddServicio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/AddServicioResponse" message="tns:IServicio_AddServicio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateServicio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/UpdateServicio" message="tns:IServicio_UpdateServicio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/UpdateServicioResponse" message="tns:IServicio_UpdateServicio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteServicio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicio/DeleteServicio" message="tns:IServicio_DeleteServicio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicio/DeleteServicioResponse" message="tns:IServicio_DeleteServicio_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IUsuario" type="tns:IUsuario">
@@ -5465,6 +5547,81 @@
       </wsdl:output>
     </wsdl:operation>
   </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_IServicio" type="tns:IServicio">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetServicio">
+      <soap:operation soapAction="http://tempuri.org/IServicio/GetServicio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeepServicio">
+      <soap:operation soapAction="http://tempuri.org/IServicio/GetDeepServicio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServicioList">
+      <soap:operation soapAction="http://tempuri.org/IServicio/GetServicioList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServicioPagedList">
+      <soap:operation soapAction="http://tempuri.org/IServicio/GetServicioPagedList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServicioPagedListXml">
+      <soap:operation soapAction="http://tempuri.org/IServicio/GetServicioPagedListXml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddServicio">
+      <soap:operation soapAction="http://tempuri.org/IServicio/AddServicio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateServicio">
+      <soap:operation soapAction="http://tempuri.org/IServicio/UpdateServicio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteServicio">
+      <soap:operation soapAction="http://tempuri.org/IServicio/DeleteServicio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
   <wsdl:service name="SoftvWCFService">
     <wsdl:port name="BasicHttpBinding_IUsuario" binding="tns:BasicHttpBinding_IUsuario">
       <soap:address location="http://localhost:64481/SoftvWCFService.svc" />
@@ -5569,6 +5726,9 @@
       <soap:address location="http://localhost:64481/SoftvWCFService.svc" />
     </wsdl:port>
     <wsdl:port name="BasicHttpBinding_ItblPrioridadQueja" binding="tns:BasicHttpBinding_ItblPrioridadQueja">
+      <soap:address location="http://localhost:64481/SoftvWCFService.svc" />
+    </wsdl:port>
+    <wsdl:port name="BasicHttpBinding_IServicio" binding="tns:BasicHttpBinding_IServicio">
       <soap:address location="http://localhost:64481/SoftvWCFService.svc" />
     </wsdl:port>
   </wsdl:service>

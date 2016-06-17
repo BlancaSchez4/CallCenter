@@ -18,7 +18,7 @@ namespace SoftvWCFService
     public partial class SoftvWCFService : IUsuario, IRole, IModule, IPermiso, IEncuesta, IPregunta, ITipoPreguntas, IRelEncuestaClientes, IRelPreguntaOpcMults,
         IRelPreguntaEncuestas, IResOpcMults, IRelEnProcesos, IConexion, ICLIENTE, ITurno, ILlamada, IRel_Clientes_TiposClientes, ITipoCliente, ICatalogoPeriodosCorte,
         ICliente_Apellido, ITap, IDatoFiscal, ITrabajo, ITipServ, IMotivoCancelacion, IRelEncuestaPreguntaRes, IQueja, ICIUDAD, ICVECOLCIU, ICOLONIA, ICVECAROL, ICALLE, IBusquedaIndividual,
-        ItblClasificacionProblema, ItblPrioridadQueja
+        ItblClasificacionProblema, ItblPrioridadQueja, IServicio
     {
         #region Usuario
         public UsuarioEntity GetUsuario(int? IdUsuario)
@@ -1578,8 +1578,54 @@ namespace SoftvWCFService
             return tblPrioridadQueja.Delete(clvPrioridadQueja);
         }
 
-        #endregion
-  
+        #endregion  
 
+
+        
+    #region Servicio
+    public ServicioEntity GetServicio(int? Clv_Servicio)
+    {
+      return Servicio.GetOne(Clv_Servicio);
+    }
+
+    public ServicioEntity GetDeepServicio(int? Clv_Servicio)
+    {
+      return Servicio.GetOneDeep(Clv_Servicio);
+    }
+
+    public IEnumerable<ServicioEntity> GetServicioList()
+    {
+      return Servicio.GetAll();
+    }
+
+    public SoftvList<ServicioEntity> GetServicioPagedList(int page, int pageSize)
+    {
+      return Servicio.GetPagedList(page,pageSize);
+    }
+
+    public SoftvList<ServicioEntity> GetServicioPagedListXml(int page, int pageSize, String xml)
+    {
+      return Servicio.GetPagedList(page,pageSize,xml);
+    }
+
+    public int AddServicio(ServicioEntity objServicio)
+    {
+      return Servicio.Add(objServicio);
+    }
+
+    public int UpdateServicio(ServicioEntity objServicio)
+    {
+      return Servicio.Edit(objServicio);
+    }
+
+    public int DeleteServicio(String BaseRemoteIp, int BaseIdUser,int? Clv_Servicio)
+    {
+      return Servicio.Delete(Clv_Servicio);
+    }
+    
+    #endregion
+  
+ 
+  
     }
 }

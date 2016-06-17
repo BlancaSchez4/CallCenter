@@ -69,6 +69,7 @@
     <Compile Include="Rel_Clientes_TiposClientesEntity.cs" />
     <Compile Include="ResOpcMultsEntity.cs" />
     <Compile Include="RoleEntity.cs" />
+    <Compile Include="ServicioEntity.cs" />
     <Compile Include="TapEntity.cs" />
     <Compile Include="tblClasificacionProblemaEntity.cs" />
     <Compile Include="tblPrioridadQuejaEntity.cs" />

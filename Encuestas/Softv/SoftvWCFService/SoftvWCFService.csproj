@@ -91,6 +91,7 @@
     <Compile Include="Contracts\IRel_Clientes_TiposClientes.cs" />
     <Compile Include="Contracts\IResOpcMults.cs" />
     <Compile Include="Contracts\IRole.cs" />
+    <Compile Include="Contracts\IServicio.cs" />
     <Compile Include="Contracts\ITap.cs" />
     <Compile Include="Contracts\ItblClasificacionProblema.cs" />
     <Compile Include="Contracts\ItblPrioridadQueja.cs" />

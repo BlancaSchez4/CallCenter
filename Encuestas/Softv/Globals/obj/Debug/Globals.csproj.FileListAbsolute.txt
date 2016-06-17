@@ -77,3 +77,25 @@ C:\ProyectoEncuestas\CallCenter\Encuestas\Softv\Globals\bin\Debug\Globals.dll
 C:\ProyectoEncuestas\CallCenter\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
 C:\ProyectoEncuestas\CallCenter\Encuestas\Softv\Globals\obj\Debug\Globals.dll
 C:\ProyectoEncuestas\CallCenter\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter - copia (2)\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter - copia (2)\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter - copia (2)\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter - copia (2)\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter - copia (2)\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter - revisar errores\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter - revisar errores\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter - revisar errores\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter - revisar errores\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter - revisar errores\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter HOY\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter HOY\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter HOY\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter HOY\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 16-06 respaldo - copia\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 16-06 respaldo - copia\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 16-06 respaldo - copia\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 16-06 respaldo - copia\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Globals\obj\Debug\Globals.pdb

@@ -77,7 +77,10 @@ namespace SoftvMVC.Controllers
             return Json(lista, JsonRequestBehavior.AllowGet);
         }
 
-
+        public ActionResult GetCALLE()
+        {
+            return Json(proxy.GetCALLEList(), JsonRequestBehavior.AllowGet);
+        }
     }
 
 }

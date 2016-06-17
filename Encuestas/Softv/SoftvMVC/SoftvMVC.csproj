@@ -228,6 +228,7 @@
     <Compile Include="Controllers\CIUDADController.cs" />
     <Compile Include="Controllers\CLIENTEController.cs" />
     <Compile Include="Controllers\Cliente_ApellidoController.cs" />
+    <Compile Include="Controllers\ServicioController.cs" />
     <Compile Include="Controllers\COLONIAController.cs" />
     <Compile Include="Controllers\ConexionController.cs" />
     <Compile Include="Controllers\CVECAROLController.cs" />
@@ -604,6 +605,8 @@
     <Content Include="dist\js\pages\Pregunta\Lista.js" />
     <Content Include="dist\js\pages\RelEncuestaCliente\Lista.js" />
     <Content Include="dist\js\pages\ReportesVarios\Lista.js" />
+    <Content Include="dist\js\pages\ReportesVarios\LlenarSelect.js" />
+    <Content Include="dist\js\pages\ReportesVarios\Objeto.js" />
     <Content Include="dist\js\pages\ResOpcMult\Lista.js" />
     <Content Include="dist\js\pages\ResOpcMult\modales_respuestas.js" />
     <Content Include="dist\js\pages\ResOpcMult\modal_detalle_pregunta.js" />
@@ -1405,6 +1408,7 @@
     <Content Include="Properties\DataSources\Softv.Entities.BusquedaIndividualEntity.datasource" />
     <Content Include="Properties\DataSources\Softv.Entities.tblClasificacionProblemaEntity.datasource" />
     <Content Include="Properties\DataSources\Softv.Entities.tblPrioridadQuejaEntity.datasource" />
+    <Content Include="Properties\DataSources\Softv.Entities.ServicioEntity.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -1573,6 +1577,11 @@
     <Content Include="Views\Encuesta\PreView.cshtml" />
     <Content Include="Views\Llamada\nueva_llamada.cshtml" />
     <Content Include="Views\ReportesVarios\Index.cshtml" />
+    <Content Include="Views\Servicio\Create.cshtml" />
+    <Content Include="Views\Servicio\Details.cshtml" />
+    <Content Include="Views\Servicio\Edit.cshtml" />
+    <Content Include="Views\Servicio\Index.cshtml" />
+    <Content Include="Views\Servicio\QuickIndex.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

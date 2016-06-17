@@ -207,3 +207,58 @@ C:\ProyectoEncuestas\CallCenter\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.
 C:\ProyectoEncuestas\CallCenter\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.csprojResolveAssemblyReference.cache
 C:\ProyectoEncuestas\CallCenter\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.dll
 C:\ProyectoEncuestas\CallCenter\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.pdb
+C:\ProyectoEncuestas\CallCenter - copia (2)\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Providers.dll
+C:\ProyectoEncuestas\CallCenter - copia (2)\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Providers.pdb
+C:\ProyectoEncuestas\CallCenter - copia (2)\Encuestas\Softv\Softv.Providers\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter - copia (2)\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Entities.dll
+C:\ProyectoEncuestas\CallCenter - copia (2)\Encuestas\Softv\Softv.Providers\bin\Debug\SoftvConfiguration.dll
+C:\ProyectoEncuestas\CallCenter - copia (2)\Encuestas\Softv\Softv.Providers\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter - copia (2)\Encuestas\Softv\Softv.Providers\bin\Debug\SoftvConfiguration.pdb
+C:\ProyectoEncuestas\CallCenter - copia (2)\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Entities.pdb
+C:\ProyectoEncuestas\CallCenter - copia (2)\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter - copia (2)\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.dll
+C:\ProyectoEncuestas\CallCenter - copia (2)\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.pdb
+C:\ProyectoEncuestas\CallCenter - revisar errores\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Providers.dll
+C:\ProyectoEncuestas\CallCenter - revisar errores\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Providers.pdb
+C:\ProyectoEncuestas\CallCenter - revisar errores\Encuestas\Softv\Softv.Providers\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter - revisar errores\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Entities.dll
+C:\ProyectoEncuestas\CallCenter - revisar errores\Encuestas\Softv\Softv.Providers\bin\Debug\SoftvConfiguration.dll
+C:\ProyectoEncuestas\CallCenter - revisar errores\Encuestas\Softv\Softv.Providers\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter - revisar errores\Encuestas\Softv\Softv.Providers\bin\Debug\SoftvConfiguration.pdb
+C:\ProyectoEncuestas\CallCenter - revisar errores\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Entities.pdb
+C:\ProyectoEncuestas\CallCenter - revisar errores\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter - revisar errores\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.dll
+C:\ProyectoEncuestas\CallCenter - revisar errores\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.pdb
+C:\ProyectoEncuestas\CallCenter HOY\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Providers.dll
+C:\ProyectoEncuestas\CallCenter HOY\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Providers.pdb
+C:\ProyectoEncuestas\CallCenter HOY\Encuestas\Softv\Softv.Providers\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter HOY\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Entities.dll
+C:\ProyectoEncuestas\CallCenter HOY\Encuestas\Softv\Softv.Providers\bin\Debug\SoftvConfiguration.dll
+C:\ProyectoEncuestas\CallCenter HOY\Encuestas\Softv\Softv.Providers\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter HOY\Encuestas\Softv\Softv.Providers\bin\Debug\SoftvConfiguration.pdb
+C:\ProyectoEncuestas\CallCenter HOY\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Entities.pdb
+C:\ProyectoEncuestas\CallCenter HOY\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter HOY\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.dll
+C:\ProyectoEncuestas\CallCenter HOY\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.pdb
+C:\ProyectoEncuestas\CallCenter 16-06 respaldo - copia\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Providers.dll
+C:\ProyectoEncuestas\CallCenter 16-06 respaldo - copia\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Providers.pdb
+C:\ProyectoEncuestas\CallCenter 16-06 respaldo - copia\Encuestas\Softv\Softv.Providers\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 16-06 respaldo - copia\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Entities.dll
+C:\ProyectoEncuestas\CallCenter 16-06 respaldo - copia\Encuestas\Softv\Softv.Providers\bin\Debug\SoftvConfiguration.dll
+C:\ProyectoEncuestas\CallCenter 16-06 respaldo - copia\Encuestas\Softv\Softv.Providers\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 16-06 respaldo - copia\Encuestas\Softv\Softv.Providers\bin\Debug\SoftvConfiguration.pdb
+C:\ProyectoEncuestas\CallCenter 16-06 respaldo - copia\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Entities.pdb
+C:\ProyectoEncuestas\CallCenter 16-06 respaldo - copia\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 16-06 respaldo - copia\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.dll
+C:\ProyectoEncuestas\CallCenter 16-06 respaldo - copia\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.pdb
+C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Providers.dll
+C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Providers.pdb
+C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Softv.Providers\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Entities.dll
+C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Softv.Providers\bin\Debug\SoftvConfiguration.dll
+C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Softv.Providers\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Softv.Providers\bin\Debug\SoftvConfiguration.pdb
+C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Softv.Providers\bin\Debug\Softv.Entities.pdb
+C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.dll
+C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Softv.Providers\obj\Debug\Softv.Providers.pdb

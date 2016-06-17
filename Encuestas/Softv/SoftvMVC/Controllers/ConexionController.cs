@@ -74,9 +74,6 @@ namespace SoftvMVC.Controllers
         }
 
 
-
-     
-
     
      
         //Nuevas funciones 

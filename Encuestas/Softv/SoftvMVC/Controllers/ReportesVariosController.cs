@@ -1,5 +1,4 @@
 ﻿
-
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using System;
@@ -12,12 +11,14 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Text;
 
+using System.Xml;
+using System.Xml.Linq;
+
+
 namespace SoftvMVC.Controllers
 {
     public class ReportesVariosController : BaseController
     {
-
-
         public ActionResult Index()
         {
             return View();
@@ -247,10 +248,97 @@ namespace SoftvMVC.Controllers
         }
 
 
+        public class objPrincipal
+        {
+            public string op { get; set; }
+            public string Orden { get; set; }
+            public string soloInternet { get; set; }
+            public string clv_reporte { get; set; }
+
+        }
+        public class objTipoCliente
+        {
+            public List<string> tipoCliente { get; set; }
+
+        }
+        public class objServicio
+        {
+            public List<string> servicio { get; set; }
+        }
+        public class objCiudades
+        {
+            public List<string> ciudades { get; set; }
+        }
+        public class objColonias
+        {
+            public List<string> colonias { get; set; }
+        }
+        public class objTelefono
+        {
+            public string telefono { get; set; }
+            public string todos { get; set; }
+
+        }
+        public class objPeriodo
+        {
+            //  public string periodo { get; set; }
+            public List<string> periodo { get; set; }
+            public string lista { get; set; }
+            public string mes { get; set; }
+            public string valorp { get; set; }
+        }
+        public class objEstatusOrden
+        {
+            public string OrdenEjecutada { get; set; }
+
+        }
+        public class objRangoFechas
+        {
+            public string fechaInicial { get; set; }
+            public string fechaFinal { get; set; }
+            public string motivoCancelacion { get; set; }
+        }
+        public class objCalles
+        {
+            public List<string> calles { get; set; }
+        }
+
+        public ActionResult Create(objPrincipal objPrincipal, objTipoCliente objTipoCliente, objServicio objServicio, objCiudades objCiudades,
+            objColonias objColonias, objTelefono objTelefono, objPeriodo objPeriodo, objEstatusOrden objEstatusOrden)
+        //, objEstatusOrden objEstatusOrden, objRangoFechas objRangoFechas, objCalles objCalles
+        {
+            XElement principal = XElement.Parse(Globals.SerializeTool.Serialize<objPrincipal>(objPrincipal));
+            XElement tipoCliente = new XElement("TipoCliente", objTipoCliente.tipoCliente.Select(i => new XElement("tipoCliente", new XAttribute("Clv_TipoCliente", i))));
+            XElement servicio = new XElement("Servicio", objServicio.servicio.Select(i => new XElement("servicio", new XAttribute("Clv_TipSer", i))));
+            XElement ciudades = new XElement("Ciudades", objCiudades.ciudades.Select(i => new XElement("ciudad", new XAttribute("Clv_Ciudad", i))));
+            XElement colonias = new XElement("Colonias", objColonias.colonias.Select(i => new XElement("colonia", new XAttribute("Clv_Colonia", i))));
+            XElement telefono = XElement.Parse(Globals.SerializeTool.Serialize<objTelefono>(objTelefono));
+            XElement periodo = new XElement("Periodo", objPeriodo.periodo.Select(i => new XElement("periodo", new XAttribute("Clv_Periodo", i))));
+            XElement OrdenEjecutada = XElement.Parse(Globals.SerializeTool.Serialize<objEstatusOrden>(objEstatusOrden));
+
+
+            principal.Add(tipoCliente, servicio, ciudades, colonias, telefono, periodo,OrdenEjecutada);
+
+            return null;
+
+        }
+
+
+
+        public class asd //era obj
+        {
+            public List<string> tipoCliente { get; set; }
+            public List<string> ciudades { get; set; }
+            public List<string> colonias { get; set; }
+            public List<string> periodo { get; set; }
+            public List<string> servicio { get; set; }
+            public List<string> telefono { get; set; }
+            public List<string> estatusOrden { get; set; }
+        }
 
 
         //ReportePorPagarInternet_2
-        public ActionResult ReportePorPagarInternet_2(string a)
+        public ActionResult ReportePorPagarInternet_2(asd obj)
         {
             Guid g = Guid.NewGuid();
 

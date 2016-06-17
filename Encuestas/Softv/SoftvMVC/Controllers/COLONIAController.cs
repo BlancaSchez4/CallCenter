@@ -100,8 +100,11 @@ namespace SoftvMVC.Controllers
             return Json(lista, JsonRequestBehavior.AllowGet);
         }
 
-       
-     
+
+        public ActionResult GetColonia()
+        {
+            return Json(proxy.GetCOLONIAList(), JsonRequestBehavior.AllowGet);
+        }
        
 
 
