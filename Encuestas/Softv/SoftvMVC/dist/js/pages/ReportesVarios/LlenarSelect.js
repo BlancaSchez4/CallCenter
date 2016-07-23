@@ -25,7 +25,7 @@ function cargarDatos(numModal) {
 
     else if (numModal == 2 && tipoServicioSeleccionado == 1) //Servicio y cable       
     {
-        alert('tipoServicioSeleccionado ' + tipoServicioSeleccionado);
+        //alert('tipoServicioSeleccionado ' + tipoServicioSeleccionado);
         //llenar select 
         $.ajax({
             url: '/Servicio/GetServicioCable/',
@@ -44,7 +44,7 @@ function cargarDatos(numModal) {
     }
     else if (numModal == 2 && tipoServicioSeleccionado == 2) //Servicio e internet
     {   // LLENAR CON CONTROLADOR SERVICIO
-        alert('tipoServicioSeleccionado ' + tipoServicioSeleccionado);
+        //alert('tipoServicioSeleccionado ' + tipoServicioSeleccionado);
         //llenar select 
         $.ajax({
             url: '/Servicio/GetServicioBasico/',
@@ -115,7 +115,7 @@ function cargarDatos(numModal) {
     }
     else if (numModal == 8)// RangoFechas
     {
-        alert(numModal)
+        //alert(numModal)
         $.ajax({
             url: '/MotivoCancelacion/GetMotivoCancelacion/',
             type: 'POST',
@@ -133,24 +133,24 @@ function cargarDatos(numModal) {
     }
     else if (numModal == 11) //Calles
     {
-        //    $.ajax({
-        //        url: '/CALLE/GetCALLE/',
-        //        type: 'POST',
-        //        dataType: 'json',
-        //        success: function (data) {
-        //            console.log(data);
-        //            $.each(data, function (i, item) {
-        //                $('<option value="' + item.Clv_Calle + '">' + item.Nombre + '</option>').appendTo('#origenCalles');
-        //            });
-        //        },
-        //        error: function () {
-        //            console.log('err')
-        //        }
-        //    });
+            $.ajax({
+                url: '/CALLE/GetCALLE/',
+                type: 'POST',
+                dataType: 'json',
+                success: function (data) {
+                    console.log(data);
+                    $.each(data, function (i, item) {
+                        $('<option value="' + item.Clv_Calle + '">' + item.Nombre + '</option>').appendTo('#origenCalles');
+                    });
+                },
+                error: function () {
+                    console.log('err')
+                }
+            });
     }
     else if (numModal == 12) //EstatusCliente
     {
-        alert(numModal)
+        //alert(numModal)
         $.ajax({
             url: '/MotivoCancelacion/GetMotivoCancelacion/',
             type: 'POST',

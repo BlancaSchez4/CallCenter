@@ -99,3 +99,184 @@ C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Globals\bin\Debug\Globals.
 C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
 C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Globals\obj\Debug\Globals.dll
 C:\ProyectoEncuestas\CallCenter 17-06\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 18-06\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 18-06\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 18-06\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 18-06\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 18-06\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 20-06\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 20-06\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 20-06\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 20-06\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 20-06\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 20-06 - copia\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 20-06 - copia\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 20-06 - copia\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 20-06 - copia\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 20-06 - copia\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 21-06\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 21-06\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 21-06\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 21-06\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 21-06 respaldo\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 21-06 respaldo\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 21-06 respaldo\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 21-06 respaldo\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 21-06\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 23-06\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 23-06\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 23-06\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 23-06\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 24-06\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 24-06\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 24-06\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 24-06\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 24-06\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 24-06 - copia\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 24-06 - copia\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 24-06 - copia\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 24-06 - copia\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 27-06\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 27-06\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 27-06\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 27-06\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 28\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 28\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 28\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 28\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 29\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 29\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 29\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 29\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 30\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 30\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 30\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 30\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 30\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 30 reporte sin html\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 30 reporte sin html\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 30 reporte sin html\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 30 reporte sin html\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 30 reporte sin html - copia\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 30 reporte sin html - copia\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 30 reporte sin html - copia\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 30 reporte sin html - copia\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 30 reporte sin html - copia\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 1 reporte sin html\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 1 reporte sin html\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 1 reporte sin html\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 1 reporte sin html\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 1 reporte sin html\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 1\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 1\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 1\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 1\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 1 - copia - copia\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 1 - copia - copia\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 1 - copia - copia\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 1 - copia - copia\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 1 - copia - copia\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 1 footer\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 1 footer\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 1 footer\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 1 footer\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 2\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 2\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 2\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 2\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 2\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 2 - bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 2 - bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 2 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 2 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 4 - bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 4 - bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 4 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 4 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 5 - bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 5 - bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 5 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 5 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 6 - bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 6 - bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 6 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 6 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 6 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 7 - bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 7 - bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 7 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 7 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 7 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 8 - bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 8 - bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 8 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 8 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 9 - bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 9 - bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 9 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 9 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 9 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 11 - bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 11 - bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 11 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 11 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 11 - bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 12 bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 12 bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 12 bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 12 bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 12 bd masciudades - copia\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 12 bd masciudades - copia\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 12 bd masciudades - copia\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 12 bd masciudades - copia\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 13 bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 13 bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 13 bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 13 bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 14 bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 14 bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 14 bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 14 bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 15 bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 15 bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 15 bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 15 bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 15 bd masciudades resp\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 15 bd masciudades resp\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 15 bd masciudades resp\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 15 bd masciudades resp\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 18 bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 18 bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 18 bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 18 bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 18 bd masciudades - copia\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 18 bd masciudades - copia\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 18 bd masciudades - copia\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 18 bd masciudades - copia\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 19 bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 19 bd masciudades\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 19 bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 19 bd masciudades\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 19 bd masciudades - copia\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 19 bd masciudades - copia\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 19 bd masciudades - copia\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter 19 bd masciudades - copia\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 19 bd masciudades - copia\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 22\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 22\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter 22\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter 22\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter22\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter22\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter22\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter22\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter23\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter23\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter23\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter23\Encuestas\Softv\Globals\obj\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter23\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter23 - copia (2)\Encuestas\Softv\Globals\bin\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter23 - copia (2)\Encuestas\Softv\Globals\bin\Debug\Globals.pdb
+C:\ProyectoEncuestas\CallCenter23 - copia (2)\Encuestas\Softv\Globals\obj\Debug\Globals.csprojResolveAssemblyReference.cache
+C:\ProyectoEncuestas\CallCenter23 - copia (2)\Encuestas\Softv\Globals\obj\Debug\Globals.dll
+C:\ProyectoEncuestas\CallCenter23 - copia (2)\Encuestas\Softv\Globals\obj\Debug\Globals.pdb

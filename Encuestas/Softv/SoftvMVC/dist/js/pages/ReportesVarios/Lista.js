@@ -19,29 +19,32 @@ function valida(e) {
     return patron.test(tecla_final);
 }
 
-////Envía el valor del input con id=anioC
-//function recibir() {
-//    var valor = document.getElementById("anioC").value; //en modal estatusCliente
-//    document.getElementById("txtEscondido").innerHTML = valor;
-//}
 
 //Aparecer o desaparecer el div de filtrar si es internet
 function filtraOnChange(sel) {
     if (sel.value == "1") {
         divT = document.getElementById("esinternet");
-        divT.style.display = "none";
+        divT.style.display = "none"; //no muestra
+        document.getElementById("soloInternet").checked = false;//checkbox se reestablece a no seleccionado
+
     } else {
         divT = document.getElementById("esinternet");
-        divT.style.display = "";
+        divT.style.display = ""; //muestra
     }
 }
 
 
 
 function functionAceptar(idReporte, numModal, idModal) {
+
+    // CABLE (1) O INTERNET (2)
+    var lista = document.getElementById("listaTipoServicio"); //select id = listaTipoServicio 
+    var op = lista.options[lista.selectedIndex].value;   // Obtener el valor de la opción seleccionada
+
     //VALIDA QUE EL SELECT DESTINO NO ESTÁ VACÍO
     if (numModal == 1) {
         var destino = "destinoClientes"; //select a validar
+       
     }
     else if (numModal == 2) {
         var destino = "destinoServicios"; //select a validar
@@ -94,7 +97,7 @@ function functionAceptar(idReporte, numModal, idModal) {
         if (ele8.checked == true) //si el div está habilitado, verificar que los campos estén seleccionados
         {
             var valor = document.getElementById("anioC").value; //en modal estatusCliente
-            //alert("valor " + valor);
+
             document.getElementById("txtEscondido").innerHTML = valor;
 
             if (valor == '') {
@@ -109,9 +112,10 @@ function functionAceptar(idReporte, numModal, idModal) {
 
             //alert("pasa al siguiente modal nombre modal: " + idModal);
             //$(idModal).modal('hide');
-            cancelar(numModal, idModal);  //Llama a la función para que reinicie el modal cada vez que se presiona 'aceptar'
-            // enviarDatos(numModal);
+            cancelar(numModal, idModal);//Llama a la función para que reinicie el modal cada vez que se presiona 'aceptar'
             secuenciaModal(idReporte, numModal);
+
+            // enviarDatos(numModal);         
 
         }
         else if ((ele1.checked == true || ele2.checked == true || ele3.checked == true || ele4.checked == true
@@ -120,8 +124,9 @@ function functionAceptar(idReporte, numModal, idModal) {
             //alert("pasa al siguiente modal nombre modal: " + idModal);
             //$(idModal).modal('hide');
             cancelar(numModal, idModal);  //Llama a la función para que reinicie el modal cada vez que se presiona 'aceptar'
-            // enviarDatos(numModal);
             secuenciaModal(idReporte, numModal);
+
+            // enviarDatos(numModal);            
         }
 
     }
@@ -186,11 +191,15 @@ function functionAceptar(idReporte, numModal, idModal) {
     }
     else if (bandera == 1 && numModal != 6 || bandera == 1 && numModal == 6 && idReporte != 5) //si solo hay un filtro
     {
-        //$(idModal).modal('hide');
+      
         cancelar(numModal, idModal);  //Llama a la función para que reinicie el modal cada vez que se presiona 'aceptar'
-        // enviarDatos(numModal);
+        
 
         if (numModal == 6 && idReporte != 0) {
+            enviarDatos();            
+        }
+
+        if (numModal == 6 && idReporte == 0 && op == 2) {
             enviarDatos();
         }
 
@@ -215,6 +224,7 @@ function functionAceptar(idReporte, numModal, idModal) {
             enviarDatos(); //se envian datos al controlador ReportesVarios
             secuenciaModal(idReporte, numModal);
         }
+
 
     }
 }
@@ -260,9 +270,6 @@ function cancelar(numModal, idModal) {
     //Modal 1, vacía los dos select, y después llena el de origen   
     document.getElementById("destinoClientes").options.length = 0;
     document.getElementById("origenClientes").options.length = 0;
-    //$('#origenClientes').append('<option value="0">Cargo Automático</option>');
-    //$('#origenClientes').append('<option value="1">Hoteles</option>');
-    //$('#origenClientes').append('<option value="2">Pago en Sucursales</option>');
 
     //Modal 2, vacía los select y llena el de origen
     document.getElementById("destinoServicios").options.length = 0;
@@ -275,17 +282,14 @@ function cancelar(numModal, idModal) {
 
     document.getElementById("destinoColonias").options.length = 0;
     document.getElementById("origenColonias").options.length = 0;
-    //$('#origenColonias').append('<option value="0">Una</option>');
-    //$('#origenColonias').append('<option value="1">Dos</option>');
-    //$('#origenColonias').append('<option value="2">Tres</option>');
 
     document.getElementById("conTel").checked = false;
     document.getElementById("sinTel").checked = false;
 
     document.getElementById("destinoPeriodo").options.length = 0;
     document.getElementById("origenPeriodo").options.length = 0;
-    //$('#origenPeriodo').append('<option value="0">Periodo 30</option>');
-    $('#listaMesP').val($('#listaMotivo > option:first').val());
+    $('#xmlComoCadena').val(''); //hidden, contiene la cadena xml que se envía al controlador
+
 
     document.getElementById("ejecutada").checked = false;
     document.getElementById("pendiente").checked = false;
@@ -297,8 +301,9 @@ function cancelar(numModal, idModal) {
 
     document.getElementById("destinoCalles").options.length = 0;
     document.getElementById("origenCalles").options.length = 0;
-    $('#origenCalles').append('<option value="0">1</option>'); //******************************ELIMINAR CUANDO CALLE FUNCIONE
-    $('#origenCalles').append('<option value="1">10</option>');
+
+    document.getElementById("listaMotivoCancelacion").options.length = 0;
+    document.getElementById("listaMotivoCancelacion12").options.length = 0;
 
     document.getElementById("contratado").checked = false;
     document.getElementById("fuera").checked = false;
@@ -318,8 +323,7 @@ function cancelar(numModal, idModal) {
     $('#anioC').val('');
     $('#anioC').attr('disabled', true);
     $('#anioCP').val('');
-
-
+    
 }
 
 
@@ -345,6 +349,8 @@ function secuenciaModal(idReporte, numModal) { //recibe el id o value del report
     //desaparecer el div
     divT2 = document.getElementById("motivoCancelacion"); //modal fechaRangos
     divT2.style.display = "none";
+    $("#listaMesP").val("1").change();  //Establecer el primer valor como seleccionado
+
 
     //// REVISA SI EL TIPO DE SERVICIO ES CABLE (1) O INTERNET (2)
     var tipoServicioSeleccionado = cableInternet();
@@ -403,11 +409,30 @@ function secuenciaModal(idReporte, numModal) { //recibe el id o value del report
             $('#periodo').modal('show');
         }
     }
-    else if (idReporte == 4 || idReporte == 6 || idReporte == 9 || idReporte == 10) {
+    else if (idReporte == 4 || idReporte == 6 || idReporte == 10) //10: paquetes de cortesía
+    {
         if (numModal == 4) {
             $('#rangoFechas').modal('show'); //al 8
         }
         if (numModal == 8) {
+            cargarDatos(6);
+            $('#periodo').modal('show'); //al 6
+        }
+    }    
+    else if (idReporte == 9) {
+        if (numModal == 4 )
+        {
+            $('#rangoFechas').modal('show'); //al 8
+        }
+        //else if (numModal == 4 && tipoServicioSeleccionado == 2) //inter
+        //{
+        //    divT2 = document.getElementById("motivoCancelacion"); //modal fechaRangos
+        //    divT2.style.display = "";
+        //    cargarDatos(8);
+        //    $('#rangoFechas').modal('show'); //al 8
+        //}
+        if (numModal == 8) {
+
             cargarDatos(6);
             $('#periodo').modal('show'); //al 6
         }
@@ -453,7 +478,7 @@ function secuenciaModal(idReporte, numModal) { //recibe el id o value del report
             cargarDatos(12);
             $('#estatusCliente').modal('show');  //va al 12
         }
-        if (idModnumModalal == 12) {
+        if (numModal == 12) {
             cargarDatos(6);
             $('#periodo').modal('show'); // va al 6
         }
@@ -576,12 +601,10 @@ function seleccionar(idModal) {
 
 function pdf() {
 
-    ////document.getElementById("reportePdf").innerHTML = "esto si funciona";
-    ////document.getElementById("reportePdf").innerHTML = '<embed src=\"Reportes/otroReporte.pdf\" width=\"500\" height=\"750\">';
-    //var nombreReporte = 'otroReporte.pdf'
-    //document.getElementById("reportePdf").innerHTML = '<embed src=\"Reportes/' + nombreReporte + '\" width=\"500\" height=\"750\">';
-    //cancelar(numModal, idModal); //envair nombre de Modal, regresar elementos a estado original
+    document.getElementById("reportePdf").innerHTML = '<embed src=\"Reportes/otroReporte.pdf\" width=\"500\" height=\"750\">';
+
 }
+
 
 
 
